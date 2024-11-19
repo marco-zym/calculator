@@ -1,0 +1,42 @@
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 36px;
+    border: 0px;
+    color: white;
+    font-size: larger;
+}
+.sh {
+    background-color: #2A2A2C;
+}
+
+.qh {
+    background-color: #5C5C5F;
+}
+
+.cs {
+    background-color: #FF9F0A;
+}
+/*按钮*/
+
+div {
+    border-radius: 12px;
+    background-color: black;
+    display: table;
+}
+/*div表格*/
+
+.zwdiv{
+    height:12px;
+}
+/*div占位*/
+
+input{
+    border-radius: 12px;
+    width: 97.5%;
+    height: auto;
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: larger;
+}

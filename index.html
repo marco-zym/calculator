@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <title>计算器</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Yueming Zhao">
+    <meta name="version" content="1.0">
+    <meta name="keyword" content="计算器">
+    <link rel="icon" href="https://s2.loli.net/2024/11/17/LmGb3nOtX5zFpTo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="zwdiv"></div>
+        <input type="text" onkeydown="keydownCalculate()" value="" id="suanShi">
+        <div class="zwdiv"></div>
+        <div>
+            &thinsp;
+            <button class="qh" onclick="AC()">AC</button>
+            &thinsp;
+            <button class="qh">+/-</button>
+            &thinsp;
+            <button class="qh" onclick="input('%')">%</button>
+            &thinsp;
+            <button class="cs" onclick="input('/')">÷</button>
+            &thinsp;
+        </div>
+        <div class="zwdiv"></div>
+        <div>
+            &thinsp;
+            <button class="sh" onclick="input('7')">7</button>
+            &thinsp;
+            <button class="sh" onclick="input('8')">8</button>
+            &thinsp;
+            <button class="sh" onclick="input('9')">9</button>
+            &thinsp;
+            <button class="cs" onclick="input('*')">×</button>
+            &thinsp;
+        </div>
+        <div class="zwdiv"></div>
+        <div>
+            &thinsp;
+            <button class="sh" onclick="input('4')">4</button>
+            &thinsp;
+            <button class="sh" onclick="input('5')">5</button>
+            &thinsp;
+            <button class="sh" onclick="input('6')">6</button>
+            &thinsp;
+            <button class="cs" onclick="input('-')">-</button>
+            &thinsp;
+        </div>
+        <div class="zwdiv"></div>
+        <div>
+            &thinsp;
+            <button class="sh" onclick="input('1')">1</button>
+            &thinsp;
+            <button class="sh" onclick="input('2')">2</button>
+            &thinsp;
+            <button class="sh" onclick="input('3')">3</button>
+            &thinsp;
+            <button class="cs" onclick="input('+')">+</button>
+            &thinsp;
+        </div>
+        <div class="zwdiv"></div>
+        <div>
+            &thinsp;
+            <button class="sh">&thinsp;</button>
+            &thinsp;
+            <button class="sh" onclick="input('0')">0</button>
+            &thinsp;
+            <button class="sh" onclick="input('.')">.</button>
+            &thinsp;
+            <button class="cs" onclick="calculate()">=</button>
+            &thinsp;
+        </div>
+        <div class="zwdiv"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
